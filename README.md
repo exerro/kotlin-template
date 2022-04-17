@@ -10,7 +10,7 @@ A template for kotlin projects.
 
 ## Installation
 
-Check out the [releases](https://github.com/exerro/observables-kt/releases), or
+Check out the [releases](https://github.com/exerro/kotlin-template/releases), or
 using a build system...
 
 ### Gradle (`build.gradle.kts`)
