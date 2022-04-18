@@ -1,4 +1,4 @@
-package me.exerro.observables
+package me.exerro
 
 import me.exerro.exportedFunction
 
