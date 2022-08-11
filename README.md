@@ -9,6 +9,20 @@
 
 A template for kotlin projects.
 
+## Updating this template
+
+* Change `kotlin-template` in `settings.gradle.kts`
+* Change `kotlin-template` in `build.gradle.kts`
+* Change `kotlin-template` in this README.
+
+## Creating a release
+
+* Update version in `build.gradle.kts`
+* Run `./gradlew clean build test publishToMavenLocal`
+* Update version in this README.
+* Run `git tag <version>`
+* Run `git push --tags`
+
 ## Installation
 
 Check out the [releases](https://github.com/exerro/kotlin-template/releases), or
@@ -43,13 +57,3 @@ dependencies {
   <version>1.0.0</version>
 </dependency>
 ```
-
-## Updating this template
-
-* Change `kotlin-template` in `settings.gradle.kts`
-* Change `kotlin-template` in `build.gradle.kts`
-* Change `kotlin-template` in this README.
-
-## Testing the build before release
-
-    ./gradlew clean && ./gradlew build && ./gradlew build publishToMavenLocal
