@@ -4,6 +4,7 @@
 
 <p align="center">
   <a href="https://jitpack.io/#exerro/kotlin-template"><img src="https://jitpack.io/v/exerro/kotlin-template.svg" alt="JitPack badge"/></a>
+  <img src="https://github.com/exerro/kotlin-template/actions/workflows/CI.yml/badge.svg" alt="Build passing status">
 </p>
 
 A template for kotlin projects.

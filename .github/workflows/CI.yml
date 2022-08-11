@@ -8,8 +8,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - '**.kt'
 
 permissions:
   contents: read
