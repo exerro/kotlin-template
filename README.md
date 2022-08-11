@@ -23,12 +23,9 @@ A template for kotlin projects.
 * Run `git tag <version>`
 * Run `git push --tags`
 
-## Installation
+## Use the library
 
-Check out the [releases](https://github.com/exerro/kotlin-template/releases), or
-using a build system...
-
-### Gradle (`build.gradle.kts`)
+#### With Gradle (`build.gradle.kts`)
 
 ```kotlin
 repositories {
@@ -41,19 +38,6 @@ dependencies {
 }
 ```
 
-### Maven
+#### Download from [releases](https://github.com/exerro/kotlin-template/releases)
 
-```xml
-<repositories>
-  <repository>
-    <id>jitpack.io</id>
-    <url>https://jitpack.io</url>
-  </repository>
-</repositories>
-
-<dependency>
-  <groupId>me.exerro</groupId>
-  <artifactId>kotlin-template</artifactId>
-  <version>1.0.0</version>
-</dependency>
-```
+#### For more, see [JitPack](https://jitpack.io/#exerro/kotlin-template)
