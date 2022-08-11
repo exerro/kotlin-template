@@ -6,7 +6,8 @@ plugins {
 }
 
 dependencies {
-    implementation(kotlin("stdlib"))
+    implementation(libs.kotlin.stdlib)
+    testImplementation(libs.kotlin.test)
 }
 
 publishing {
@@ -29,5 +30,9 @@ allprojects {
         kotlinOptions.freeCompilerArgs += "-opt-in=kotlin.time.ExperimentalTime"
         kotlinOptions.freeCompilerArgs += "-language-version"
         kotlinOptions.freeCompilerArgs += "1.7"
+    }
+
+    tasks.withType<Test> {
+        useJUnitPlatform()
     }
 }

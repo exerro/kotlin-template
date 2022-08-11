@@ -1,8 +1,11 @@
 package me.exerro
 
-import me.exerro.exportedFunction
+import kotlin.test.Test
+import kotlin.test.assertEquals
 
-/** Test that the exported function returns 42. */
-fun main() {
-    assert(exportedFunction() == 42)
+class Test {
+    @Test
+    fun `exportedFunction returns 42`() {
+        assertEquals(42, exportedFunction())
+    }
 }
